@@ -16,8 +16,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 row--logobox">
+        <div class="row row--logobox">
+            <div class="col-md-12">
                 <img src="./assets/img/logo.png" alt="">
                 <!-- <a target="_blank" href="https://icons8.com/icons/set/car">Car icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
             </div>
@@ -31,7 +31,28 @@
                 </p>
             </div>
         </div>
-        <div class="row"></div>
+        <div class="row row--landingbox">
+            <div class="col-md-6">
+                <img class="row__landingbox--imglanding" src="./assets/img/landing.jpg" alt="" srcset="">
+            </div>
+            <div class="col-md-6">
+                <div class="row__landingbox--loginbox">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label for="usuario">Usuario*</label>
+                            <input type="text" class="form-control inputs" id="usuario" name="usuario" placeholder="Ingrese el Usuario">
+                        </div>
+                        <div class="form-group">
+                            <label for="contrasena">Contraseña*</label>
+                            <input type="text" class="form-control inputs" id="contrasena" name="contrasena" placeholder="Ingrese el Contraseña">
+                        </div>
+                        <div class="landingbox__loginbox--btnbox">
+                            <button class="btn" type="submit" class="boton-enviar">Iniciar Sesión</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
