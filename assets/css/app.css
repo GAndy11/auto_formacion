@@ -1,0 +1,28 @@
+.container{
+    font-family: 'Nunito', sans-serif;
+}
+
+.row--logobox{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.row--logobox img{
+    width: 100px;
+}
+
+.row--titubox{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.row__titubox--titulo{
+    font-weight: 600;
+}
+
+.row__titubox--subtitulo{
+    padding-bottom: 40px;
+    font-size: 21px;
+    color: gray;
+    font-weight: 500;
+}
